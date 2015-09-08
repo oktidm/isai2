@@ -33,7 +33,7 @@
                 <div class="collapse navbar-collapse main-nav" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-right">
                         <li>
-                            <a href="portfolio.html">
+                            <a href="#servicios">
                                 <div class="big">Portfolio</div>
                                 <hr/>
                                 <div class="small">Servicios</div>
@@ -111,13 +111,14 @@
             </div>
         </div>
     </section>
-    <section class="line">
+    <section class="line" id="servicios">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="title-icon">
                         <i class="entyp-doc-text-1"></i>
                     </div>
+                    <br>
                     <h1>Nuestros servicios</h1>
                 </div>
             </div>

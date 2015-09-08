@@ -15,60 +15,7 @@
     <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
 </head>
 <body class="theme-4 no-perspective" data-spy="scroll" data-target=".main-nav" data-offset="60">
-    <section id="theme-swatch">
-        <ul class="colors">
-            <li><a href="#" class="theme-1 color-swatch"></a></li>
-            <li><a href="#" class="theme-2 color-swatch"></a> </li>
-            <li><a href="#" class="theme-3 color-swatch"></a></li>
-            <li><a href="#" class="active theme-4 color-swatch"></a></li>
-            <li><a href="#" class="theme-5 color-swatch"></a></li>
-        </ul>
-    </section>
-    <div class="login-modal">
-        <div class="login-content">
-            <div>
-                <button class="login-close btn btn-primary entyp-cancel-1"></button>
-                <ul class="nav nav-tabs" role="tablist">
-                    <li class="active"><a href="#login" role="tab" data-toggle="tab">Login</a></li>
-                    <li><a href="#register" role="tab" data-toggle="tab">Register</a></li>
-                </ul>
-                <div class="tab-content">
-                    <div class="tab-pane active fade in" id="login">
-                        <form action="">
-                            <div class="input-group">
-                                <input type="email" name="login-email" placeholder="Email" class="form-control"/>
-                            </div>
-                            <div class="input-group">
-                                <input type="password" name="login-password" placeholder="Password" class="form-control"/>
-                            </div>
-                            <div class="input-line">
-                                <button type="submit" class="btn btn-success btn-icon entyp-login-1">Login</button>
-                            </div>
-                        </form>
-                    </div>
-                    <div class="tab-pane fade" id="register">
-                        <form action="">
-                            <div class="input-group">
-                                <input type="text" name="register-name" placeholder="Name" class="form-control"/>
-                            </div>
-                            <div class="input-group">
-                                <input type="email" name="register-email" placeholder="Email" class="form-control"/>
-                            </div>
-                            <div class="input-group">
-                                <input type="password" name="register-password" placeholder="Password" class="form-control"/>
-                            </div>
-                            <div class="input-group">
-                                <input type="password" name="register-passworda" placeholder="Confirm Password" class="form-control"/>
-                            </div>
-                            <div class="input-line">
-                                <button type="submit" class="btn btn-success btn-icon entyp-users-1">Register</button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+   
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
         <div class="background"></div>
         <div class="container">
@@ -81,91 +28,39 @@
                         <span class="icon-bar"></span>
                     </button>
                     <button class="open-login mobile-login"><i class="entyp-user-1"></i></button>
-                    <a class="navbar-brand" href="#home"><i class="entyp-feather"></i> Amber</a>
+                    <a class="navbar-brand" href="#home"><i class="entyp-feather"></i> ¡Proyecta Vida!</a>
                 </div>
                 <div class="collapse navbar-collapse main-nav" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-right">
                         <li>
-                            <a href="index.html">
-                                <div class="big">Home</div>
-                                <hr/>
-                                <div class="small">Summary</div>
-                            </a>
-                            <ul>
-                                <li><a href="#">Dropdown #1</a></li>
-                                <li><a href="#">Dropdown #2</a></li>
-                                <li>
-                                    <a href="#">Submenu #3</a>
-                                    <ul>
-                                        <li><a href="#">Dropdown #3.1</a></li>
-                                        <li><a href="#">Dropdown #3.2</a></li>
-                                        <li><a href="#">Dropdown #3.3</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="#">Dropdown #4</a></li>
-                            </ul>
-                        </li>
-                        <li>
                             <a href="portfolio.html">
                                 <div class="big">Portfolio</div>
                                 <hr/>
-                                <div class="small">Latest work</div>
+                                <div class="small">Servicios</div>
                             </a>
-                            <ul>
-                                <li><a href="portfolio-alternate.html">Portfolio Alternate</a></li>
-                                <li><a href="portfolio-single.html">Portfolio Item</a></li>
-                            </ul>
                         </li>
-                        <li class="active">
-                            <a href="blog.html">
+                        <li>
+                            <a href="blog-2-col.html">
                                 <div class="big">Blog</div>
                                 <hr/>
-                                <div class="small">Latest News</div>
+                                <div class="small">Noticias</div>
                             </a>
-                            <ul>
-                                <li><a href="blog-single.html">Blog Post</a></li>
-                                <li class="active"><a href="blog-2-col.html">Blog 2 Columns</a></li>
-                                <li><a href="blog-no-sidebar.html">Blog Post Without Sidebar</a></li>
-                            </ul>
                         </li>
                         <li>
                             <a href="about.html">
-                                <div class="big">About Us</div>
+                                <div class="big">Nosotros</div>
                                 <hr/>
-                                <div class="small">Who We Are</div>
+                                <div class="small">Quienes somos</div>
                             </a>
                         </li>
                         <li>
                             <a href="contact.html">
-                                <div class="big">Contact</div>
+                                <div class="big">Contacto</div>
                                 <hr/>
-                                <div class="small">Find Us</div>
+                                <div class="small">Encuéntranos</div>
                             </a>
                         </li>
                         <li>
-                            <a href="shortcodes.html">
-                                <div class="big">Shortcodes</div>
-                                <hr/>
-                                <div class="small">Elements</div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" class="open-login ignore init-login-popover">
-                                <div class="big"><i class="entyp-user-1"></i> Login</div>
-                                <hr/>
-                                <div class="small">or Register</div>
-                            </a>
-                        </li>
-                        <li>
-                            <div class="input-group search-group">
-                                <form action="">
-                                    <input type="text" class="form-control" placeholder="Search..." name="s">
-                                    <input type="submit" class="hidden" value="submit"/>
-                                    <span class="input-group-btn">
-                                        <button class="btn" type="button"><i class="entyp-search-1"></i></button>
-                                    </span>
-                                </form>
-                            </div>
                         </li>
                     </ul>
                 </div>
